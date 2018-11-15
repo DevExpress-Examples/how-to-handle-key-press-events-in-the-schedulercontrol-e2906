@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml.cs](./CS/DXScheduler_KeyHandling/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXScheduler_KeyHandling/MainWindow.xaml.vb))
+* [MyKeyboardHandlerService.cs](./CS/DXScheduler_KeyHandling/MyKeyboardHandlerService.cs) (VB: [MyKeyboardHandlerService.vb](./VB/DXScheduler_KeyHandling/MyKeyboardHandlerService.vb))
+<!-- default file list end -->
 # How to handle key press events in the SchedulerControl
 
 
