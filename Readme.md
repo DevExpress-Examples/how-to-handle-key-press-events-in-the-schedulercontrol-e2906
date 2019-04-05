@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXScheduler_KeyHandling/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXScheduler_KeyHandling/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXScheduler_KeyHandling/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXScheduler_KeyHandling/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXScheduler_KeyHandling/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXScheduler_KeyHandling/MainWindow.xaml.vb))
 * [MyKeyboardHandlerService.cs](./CS/DXScheduler_KeyHandling/MyKeyboardHandlerService.cs) (VB: [MyKeyboardHandlerService.vb](./VB/DXScheduler_KeyHandling/MyKeyboardHandlerService.vb))
 * [ResourceFiller.cs](./CS/DXScheduler_KeyHandling/ResourceFiller.cs) (VB: [ResourceFiller.vb](./VB/DXScheduler_KeyHandling/ResourceFiller.vb))
