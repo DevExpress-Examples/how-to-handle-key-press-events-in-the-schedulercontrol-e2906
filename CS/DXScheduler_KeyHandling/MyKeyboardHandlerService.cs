@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using DevExpress.Xpf.Scheduler;
 using DevExpress.XtraScheduler;
 using DevExpress.XtraScheduler.Services;
+using DevExpress.Portable.Input;
 
 namespace DXScheduler_KeyHandling
 {
@@ -21,15 +22,16 @@ namespace DXScheduler_KeyHandling
             _provider = provider;            
         }
 
-        public override void OnKeyDown(System.Windows.Forms.KeyEventArgs e)
+        public override void OnKeyDown(PortableKeyEventArgs e)
         {
-            if (e.KeyCode == Keys.N && e.Control) {
+            if (e.KeyCode == PortableKeys.N && e.Control)
+            {
                 SchedulerControl scheduler = (SchedulerControl)_provider;
                 Appointment apt = scheduler.Storage.CreateAppointment(AppointmentType.Normal);
-				apt.Subject = "Test";
-				apt.Start = scheduler.SelectedInterval.Start;
-				apt.End = scheduler.SelectedInterval.End;
-				apt.ResourceId = scheduler.SelectedResource.Id;
+                apt.Subject = "Test";
+                apt.Start = scheduler.SelectedInterval.Start;
+                apt.End = scheduler.SelectedInterval.End;
+                apt.ResourceId = scheduler.SelectedResource.Id;
                 scheduler.Storage.AppointmentStorage.Add(apt);
                 /*Uncommment the next code line to navigate one time frame forward
                  (determined by the currently active view) */
